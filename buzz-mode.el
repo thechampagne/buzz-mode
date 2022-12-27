@@ -107,7 +107,7 @@
   "A major mode for the Buzz programming language."
   :syntax-table buzz-mode-syntax-table
   (setq-local font-lock-defaults '(buzz-font-lock-keywords))
-  (setq-local comment-start "|")
+  (setq-local comment-start "| ")
   (setq-local comment-end ""))
 
 ;;;###autoload
